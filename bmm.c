@@ -1,11 +1,13 @@
 // see the bmm.py file
 
 #include <stdio.h>
+
 #define max(x, y) (((x) > (y)) ? (x) : (y))
 
 int main(){
 
-int num1 , num2;
+int num1;
+int num2;
 
 printf("Enter The number 1 and number 1 ( (number 1 , number 2 )): ");
 scanf("%d %d" , &num1 , &num2);
